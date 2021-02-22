@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Dock Pong</title>
+  </head>
+  <body>
+    <svg
+      id="game"
+      viewBox="0 0 100 100"
+      width="100px"
+      height="100px"
+      fill="black"
+    >
+      <rect width="100" height="100" fill="black" />
+      <text x="20" y="15" fill="white">0</text>
+      <text x="70" y="15" fill="white">0</text>
+      <line x1="50" y1="0" x2="50" y2="100" stroke="white" />
+      <rect id="ball" x="6" y="0" width="5" height="5" fill="white" />
+      <rect id="cpu" x="0" y="40" width="5" height="25" fill="white" />
+      <rect id="player" x="95" y="40" width="5" height="25" fill="white" />
+    </svg>
+    <script src="./renderer.js"></script>
+  </body>
+</html>
